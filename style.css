@@ -13,11 +13,11 @@
 }
 
 :root {
-    --bg-color: #2a2a2a;
-    --second-bg-color: #ACA7CB;
-    --text-color: #787586;
-    --second-color: #ccc;
-    --main-color: #FF00FF;
+    --bg-color: #CECCD0;
+    --second-bg-color: #F3F1F5;
+    --text-color: #100E12;
+    --second-color: #6A686C;
+    --main-color: #504E51;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -70,11 +70,11 @@ body {
 }
 
 .navList a:hover {
-    color: var(--main-color);
+    color: var(--second-bg-color);
 } 
 
 .navList a.active {
-    color: var(--main-color);
+    color: var(--second-bg-color);
 }
 
 #menu-icon {
@@ -246,6 +246,8 @@ body {
     line-height: 1.7;
     margin: 15px 0 30px;
 }
+
+
 
 p2 {
     margin-top: 55px;
